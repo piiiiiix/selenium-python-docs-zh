@@ -53,7 +53,7 @@
 `driver.get` 方法将打开URL中填写的地址，WebDriver 将等待，
 直到页面完全加载完毕（其实是等到"onload" 方法执行完毕），然后返回继续执行你的脚本。
 值得注意的是，如果你的页面使用了大量的Ajax加载，
-WebDriver可能不知道什么时候页面已经完全加载::
+WebDriver可能不知道什么时候页面才能完全加载::
 
   driver.get("http://www.python.org")
 
